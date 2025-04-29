@@ -9,7 +9,6 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const upload = multer({ dest: "uploads/" });
 
-const KEYFILEPATH = "Notatki-dla-g-JSON-Klucz.json";
 const SCOPES = ["https://www.googleapis.com/auth/drive.file"];
 const FOLDER_ID = "TWÓJ_FOLDER_ID";
 
