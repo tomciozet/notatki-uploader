@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 const upload = multer({ dest: "uploads/" });
 
 const SCOPES = ["https://www.googleapis.com/auth/drive.file"];
-const FOLDER_ID = "TWÓJ_FOLDER_ID";
+const FOLDER_ID = "1neLFf2A53SmxSRbPn8tAP3lfxzeh3Nad";
 
 app.use(express.static(__dirname));
 
