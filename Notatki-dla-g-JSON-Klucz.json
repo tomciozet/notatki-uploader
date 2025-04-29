@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "notatki-dla-g",
+  "private_key_id": "6073437460e885c0dd9c67a652da56e97c08214d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjcXfso/4l70p8\nInv2m3FRbmV7o5Fui6V5L5NVaDyOLlOv6AJm2HQ2SD9476URNRPrKlrEF0vvzIIm\nHHpVGFjfQGKpadR6LwQRt7Nu6B8CF9osGv7WWqBnYVsiy7wJQfK3a7g1vpjJMF0D\nfgO2WA1Q0mnRL89fPNDjC7I9PNZGOZSF3u4a2nOWA8+CVHj30qDdN6Bl0xD6nRWQ\n3vATeVpTDogerZeDLAy4qLyW5V44nBK3J0bO3vp7yQZzxCuHah127tWyTyXBTqMx\nLybNC0ELBZQ7cmBhz+MazaStmNiveE5MZmA0tBLKblDZey6akgG/RTo8EAjgbgyH\nc4lfs1C3AgMBAAECggEARZqNZUgDdBk/QbUX0JIrBHA8pJYoWYj766twlZch7rTY\n69kkqLK2buV+rlx0EetmM6hiZg67xn/zzxIioLmRI2YSfi41D+GU3Iy8S9drWSNa\nRJ0seJG4rL3/p0ZXKiQdHrKvjKfB/i/r9JBGOXGvHgO1j6HKMLdAB+jTu5N8dwPg\nPG7ZjaVA8fbfiK7cUFnlL+nZe4nFw2XRU7tjYvZ3kmc/R9phhEiU/68bzJ9/6cFC\nc9Z9tmLjHcf3MlHrKVU4qMF6rRNfFOWaqrGndQJnCExX4XLtYQ3QscTo/qVIv8Ks\nROUtz4kYhmJXalmMzko5PwWCaFddB6F+DjpFvQEgOQKBgQDjr+baeR2rvj5bwjZM\n+3P8mTcllwG+c0AKDThqA3x3Gr8Q/cZjzRkmhbtaNCfhd88HdQX6OkZGkHy9011h\n4vGKAF/3cFQYufDuJo6a0pmR9P57zg8z/S/u8X2du9QnSrNPKE+ZLi6qQXXzTjhg\nDwF+oiaQSthbfVe7GPfwvsdkGQKBgQC3xHQPwaZ8bK3suLUa+45WnOt3akMCGkmy\ntvys4u3j5TRgk7bBB830wgIYkotmiPUIwNpzREDtL6VpwnZpxz/nXmou8p/TBiPK\nmnQh0/d6cElKr3MUgg6/A96Wng64eXHvTKekORg2tc59fEhXS3+2Xz303CxcDyGM\nUSjt6Ex1TwKBgCQ8VGMkr2IrzsTPrdCmnBjxUWN8Gtzyfpia7gWBNIfIC+xqVu5/\nL6d/1QdQEaDCboJjT2Y5bAHC8PdM8imn8oTh9mPszpV40i00mbFuHt6pvO57JtRB\nUSWX7UPzJppyOwM4CSL5xJd3/4uPQU2YVcaPi8+e+bvlwNaX7K21zwnRAoGBAJgb\nbg3Utl9q/ZNhV9abvbeHb4eKVyiYZcQdnovj0hC+mVoPKkggk6MyKtX4Bpa6akfy\niV67chphQ8OEiMsJd6WlCrMNdKkQ/fMnYVTWxJN9+cxt6Q1ikZ4eL9HvxjN/ooT2\nqBRQhfBTEDXh92b6QR3NO9U/oSAaDiS80OoLS64VAoGBALR5Zr9tZB25fH1zZnRM\nkMEheHuKD9zG+sdsjHSKpuoW6D3SVCWrTIpZjgo9UNEFEZCclKmUquAY+ZLJIWlt\nCYvSbbQCkHqBW13Dp+zVuC0oIHj0JwZKnykHm8pIaH23A8qZL4VUXnejyNaIE5o8\nl+ED9YfyRkUjFwXdzEfjFtm3\n-----END PRIVATE KEY-----\n",
+  "client_email": "notatki-service@notatki-dla-g.iam.gserviceaccount.com",
+  "client_id": "107342039928554886640",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/notatki-service%40notatki-dla-g.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
