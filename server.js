@@ -41,7 +41,12 @@ app.post("/upload", upload.single("file"), async (req, res) => {
     });
 
     fs.unlinkSync(filePath);
-    res.send(`<p>Plik wysłany! <a href="${response.data.webViewLink}" target="_blank">Otwórz w Google Drive</a></p>`);
+    res.json({
+  message: "Plik wysłany!",
+  webViewLink: response.data.webViewLink,
+  webContentLink: response.data.webContentLink,
+});
+
   } catch (error) {
     res.status(500).send(`Błąd: ${error.message}`);
   }
