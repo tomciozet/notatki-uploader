@@ -20,14 +20,6 @@ app.post("/upload", upload.single("file"), async (req, res) => {
   const fileName = req.file.originalname;
   const mimeType = mime.lookup(fileName) || "application/octet-stream"; 
 
-app.get("/", (req, res) => {
-  res.send(`
-    <h2>Uploader działa! ✅</h2>
-    <p>Użyj aplikacji do wysyłania plików na Google Drive.</p>
-    <p><b>Endpoint:</b> POST /upload</p>
-  `);
-});
-
   const auth = new google.auth.GoogleAuth({
     keyFile: KEYFILEPATH,
     scopes: SCOPES,
@@ -65,4 +57,12 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`🚀 Serwer działa na http://localhost:${PORT}`);
+});
+
+app.get("/", (req, res) => {
+  res.send(`
+    <h2>Uploader działa! ✅</h2>
+    <p>Użyj aplikacji do wysyłania plików na Google Drive.</p>
+    <p><b>Endpoint:</b> POST /upload</p>
+  `);
 });
