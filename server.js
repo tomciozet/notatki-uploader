@@ -18,7 +18,15 @@ const FOLDER_ID = "1neLFf2A53SmxSRbPn8tAP3lfxzeh3Nad";
 app.post("/upload", upload.single("file"), async (req, res) => {
   const filePath = req.file.path;
   const fileName = req.file.originalname;
-  const mimeType = mime.lookup(fileName) || "application/octet-stream";
+  const mimeType = mime.lookup(fileName) || "application/octet-stream"; 
+
+app.get("/", (req, res) => {
+  res.send(`
+    <h2>Uploader działa! ✅</h2>
+    <p>Użyj aplikacji do wysyłania plików na Google Drive.</p>
+    <p><b>Endpoint:</b> POST /upload</p>
+  `);
+});
 
   const auth = new google.auth.GoogleAuth({
     keyFile: KEYFILEPATH,
