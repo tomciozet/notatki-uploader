@@ -59,10 +59,9 @@ app.listen(PORT, () => {
   console.log(`🚀 Serwer działa na http://localhost:${PORT}`);
 });
 
+const path = require("path");
+
 app.get("/", (req, res) => {
-  res.send(`
-    <h2>Uploader działa! ✅</h2>
-    <p>Użyj aplikacji do wysyłania plików na Google Drive.</p>
-    <p><b>Endpoint:</b> POST /upload</p>
-  `);
+  res.sendFile(path.join(__dirname, "index.html"));
 });
+
